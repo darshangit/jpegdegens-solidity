@@ -107,6 +107,41 @@
       "artifacts": [
         "console"
       ]
+    },
+    "/Users/users/Desktop/Code/jpegdegens/contracts/TestGas.sol": {
+      "lastModificationDate": 1652447243436,
+      "contentHash": "2ada24260138a82210c73e6930fe16cc",
+      "sourceName": "contracts/TestGas.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TestGas"
+      ]
     }
   }
 }
