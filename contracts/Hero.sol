@@ -22,6 +22,12 @@ contract Hero {
         Barbarian
     }
 
+    mapping(address => uint[]) addressToHeroes;
+
+    function getHeroes() public view returns (uint256[] memory) {
+        return addressToHeroes[msg.sender];
+    }
+
     function createHero(Class class) public payable {
         require(msg.value >= 0.05 ether, "Please send more money");
     }

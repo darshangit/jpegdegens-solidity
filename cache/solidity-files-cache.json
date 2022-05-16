@@ -144,8 +144,8 @@
       ]
     },
     "/Users/users/Desktop/Code/jpegdegens/contracts/Hero.sol": {
-      "lastModificationDate": 1652663861125,
-      "contentHash": "2adbff8c911223305d5c1cd39981e7d8",
+      "lastModificationDate": 1652664673522,
+      "contentHash": "c1ee9d430abf810b20fafbd0c505a0b5",
       "sourceName": "contracts/Hero.sol",
       "solcConfig": {
         "version": "0.8.10",
