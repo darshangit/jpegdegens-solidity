@@ -252,6 +252,44 @@
         "Fallback",
         "IFallback"
       ]
+    },
+    "/Users/users/Desktop/Code/jpegdegens/contracts/A.sol": {
+      "lastModificationDate": 1652878185692,
+      "contentHash": "0d0388ae42505278cc53047517d8619c",
+      "sourceName": "contracts/A.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "A",
+        "B"
+      ]
     }
   }
 }
