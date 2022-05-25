@@ -254,8 +254,8 @@
       ]
     },
     "/Users/users/Desktop/Code/jpegdegens/contracts/A.sol": {
-      "lastModificationDate": 1652878185692,
-      "contentHash": "0d0388ae42505278cc53047517d8619c",
+      "lastModificationDate": 1653482280041,
+      "contentHash": "db48259da08d40b8f65a687d192d90b6",
       "sourceName": "contracts/A.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -281,7 +281,8 @@
         }
       },
       "imports": [
-        "hardhat/console.sol"
+        "hardhat/console.sol",
+        "./Storage.sol"
       ],
       "versionPragmas": [
         "^0.8.0"
@@ -290,6 +291,39 @@
         "A",
         "B"
       ]
+    },
+    "/Users/users/Desktop/Code/jpegdegens/contracts/Storage.sol": {
+      "lastModificationDate": 1653482285919,
+      "contentHash": "39e052544438af4c77ab3b647d240d4c",
+      "sourceName": "contracts/Storage.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": []
     }
   }
 }
