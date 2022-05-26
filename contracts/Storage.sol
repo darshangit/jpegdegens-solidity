@@ -7,3 +7,14 @@ struct AppStorage {
     uint8 d;
     address ContractA;
 }
+
+library Storage {
+    bytes32 KEY = keccak256("my-storage-location");
+
+    function get() internal pure returns (AppStorage storage s){
+        bytes32 k = KEY;
+        assembly {
+            s.slot = k;
+        }
+    }
+}
